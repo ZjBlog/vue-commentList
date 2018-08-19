@@ -1,7 +1,7 @@
 {
   "name": "vue-comment-comments",
   "description": "a vue component which comment and a list comments 一个关于评论和评论列表的组件",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "zhangjunTracy <13552960783@163.com>",
   "license": "MIT",
   "private": false,
