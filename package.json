@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhangjunTracy/vue-comment-list.git"
+    "url": "git@github.com:zhangjunTracy/vue-commentList.git"
   },
   "files": [
     "dist",
@@ -24,7 +24,7 @@
     "list",
     "comment list"
   ],
-  "homepage": "https://github.com/zhangjunTracy/vue-comment-list#readme.md",
+  "homepage": "https://github.com/zhangjunTracy/vue-commentList#readme.md",
   "dependencies": {
   },
   "browserslist": [
