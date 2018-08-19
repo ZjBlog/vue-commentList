@@ -3,11 +3,11 @@ var webpack = require('webpack')
 
 module.exports = {
   // dev 环境 entry: './src/main.js',
-  entry: './src/component/index.js',  
+  entry: process.env.NODE_ENV === 'production' ? './src/component/index.js' : './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-commentList.js',
+    filename: process.env.NODE_ENV === 'production' ? 'vue-commentList.js' : 'build.js',
     library: 'vue-commentList',
     libraryTarget: 'umd',
     umdNamedDefine: true
