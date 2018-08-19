@@ -131,6 +131,15 @@ export default {
     }
   },
   mounted () {
+  },
+  filters: {
+    time: function (value) {
+      let date = new Date(value)
+      return date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日'
+    },
+    avatar: function (value) {
+      return {'background': 'url(' + value + ') no-repeat left top'}
+    }
   }
 }
 </script>
