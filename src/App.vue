@@ -16,16 +16,20 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-    <VueCommentList></VueCommentList>
+    <vue-comment-list></vue-comment-list>
   </div>
 </template>
 <script>
+import VueCommentList from 'vue-comment-comments'
 export default {
   name: 'app',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    VueCommentList
   }
 }
 </script>
