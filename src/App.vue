@@ -30,6 +30,9 @@ export default {
   },
   components: {
     VueCommentList
+  },
+  mounted () {
+    console.info(VueCommentList)
   }
 }
 </script>
