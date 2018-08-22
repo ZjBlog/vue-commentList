@@ -5,7 +5,7 @@ import VueComments from './VueComments.vue';
 export function install(Vue) {
 	if (install.installed) return;
 	install.installed = true;
-	Vue.component('comments', VueComments);
+	Vue.component('Comments', VueComments);
 }
 
 // Create module definition for Vue.use()

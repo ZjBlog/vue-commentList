@@ -3,7 +3,7 @@ import buble from 'rollup-plugin-buble'; // Transpile/polyfill with reasonable b
 export default {
     input: 'src/component/wrapper.js', // Path relative to package.json
     output: {
-        name: 'comments',
+        name: 'Comments',
         exports: 'named',
     },
     plugins: [
