@@ -12,7 +12,7 @@ $ yarn vue-comment-list
 $ npm i vue-comment-list
 ```
 
-## 运行时要求
+## 运行时要求11
 
 vue2.x
 
